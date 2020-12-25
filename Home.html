@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="personalpage" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./icon.ico">
+    <title>My Home</title>
+    <style>
+        /* a:link {color:rgba(0, 0, 0, 0.884)}
+        a:visited {color:rgba(0, 0, 0, 0.884)} */
+        a:link {color:rgba(255, 168, 209, 0.877)}
+        a:visited {color:rgba(255, 168, 209, 0.877)}
+        H3 {
+            margin-left: 15px;
+            color:rgb(243, 83, 83);
+            line-height:19px;
+        }
+        body{
+            background:url("./pokemon_4.jpg")  no-repeat center center;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width:100%;
+            height:100%;
+            min-width: 1000px;
+            z-index:-10;
+            zoom: 1;
+            background-size: cover;
+            -webkit-background-size: cover;
+            -o-background-size: cover;
+            background-position: center 0;
+            background-attachment:fixed;
+            background-color:#ffffff;
+        } 
+        .main{
+            position: absolute;
+            top: -8px;
+            left: -8px;
+        }
+        span.link{
+            display: block;
+            margin-left: 30px;
+        }
+        .google{
+            position: absolute;
+            top: 100px;
+            left: 700px;
+        }
+        .google img{
+            margin-left: 50px;
+            width: 44%;
+        }
+        .google input:nth-child(2){
+            margin-left: 10px;
+        }
+        .baidu{
+            position: absolute;
+            top: 280px;
+            left: 700px;
+        }
+        .baidu img{
+            margin-left: 50px;
+            width: 44%;
+        }
+        .baidu input:nth-child(2){
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <H3>Study</H3>
+        <span class="link"><A HREF="https://github.com/Alvin9999/new-pac/wiki">GitHub</A></span>
+        <span class="link"><A HREF="https://vjudge.net/contest/#rank">Contests - Virtual Judge</A></span>
+        <span class="link"><A HREF="https://www.luogu.com.cn/problem/list">洛谷</A></span>
+        <span class="link"><A HREF="https://pytorch.org/docs/stable/index.html">PyTorch documentation</A></span>
+        <span class="link"><A HREF="https://python123.io/student/courses/2182/intro">Python123</A></span>
+        <H3>Fudan University</H3>
+        <span class="link"><A HREF="http://ehall.fudan.edu.cn/new/index.html">网上办事服务大厅</A></span>
+        <span class="link"><A HREF="https://elearning.fudan.edu.cn/">欢迎使用新版eLearning</A></span>
+        <span class="link"><A HREF="https://jwfw.fudan.edu.cn/eams/home.action;jsessionid=8E8DE646DFAD69505A00843CB221ABF7.84-">复旦教务系统</A></span>
+        <span class="link"><A HREF="https://xk.fudan.edu.cn">复旦选课系统</A></span>
+        <H3>Entertainment</H3>
+        <span class="link"><A HREF="https://www.bilibili.com/">哔哩哔哩 (゜-゜)つロ 干杯~-bilibili</A></span>
+        <span class="link"><A HREF="https://www.gushiwen.org/">古诗文网</A></span>
+        <span class="link"><A HREF="https://wallhaven.cc/">Awesome Wallpapers</A></span>
+        <H3>Work and Tools</H3>
+        <span class="link"><A HREF="https://www.baidu.com/">百度一下，你就知道</A></span>
+        <span class="link"><A HREF="https://translate.google.cn/">Google 翻译</A></span>
+        <span class="link"><A HREF="https://convertio.co/zh/">Convertio — 文件转换器</A></span>
+        <span class="link"><A HREF="https://www.vhwke.com/user">墙墙俱乐部</A></span>
+        <span class="link"><A HREF="https://mp.weixin.qq.com/cgi-bin/home?t=home/index&lang=zh_CN&token=1310387288">微信公众号</A></span>
+        <span class="link"><A HREF="https://mail.google.com/mail/u/0/#inbox">Gmail</A></span>
+    </div>
+    <div class="google">
+        <img src="./10-5icon.png">
+        <form action="https://www.google.com.hk/search">
+                <input size="43" type="text" name="q"/><input type="submit"  value="谷歌搜索"/>
+        </form>
+    </div>
+    <div class="baidu">
+        <img src="./baidu.png">
+        <form action="https://www.baidu.com/s">
+                <input size="43" type="text" name="wd"/><input type="submit"  value="百度搜索"/>
+        </form>
+    </div>
+</body>
+</html>
